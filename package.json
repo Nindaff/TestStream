@@ -1,0 +1,20 @@
+{
+  "name": "test-stream",
+  "version": "0.0.1",
+  "author": "Nick Pisacane <pisacanen@gmail.com>",
+  "description": "Test your readable/duplex stream results.",
+  "keywords": ["test", "test stream", "stream", "testable stream"],
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/Nindaff/TestStream"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nindaff/TestStream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/teststream.spec.js"
+  },
+  "devDependencies": {
+    "should": "~6.0.1"
+  }
+}
